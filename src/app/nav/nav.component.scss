@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+ul {
+    position: relative;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+    justify-self: right;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightcyan;
+    color: black;
+  }
+
+  .shift{
+      float: right;
+  }
+
+  .name{
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+  }

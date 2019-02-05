@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head></head>
+  <body>
+    <h2 class="head">My Projects</h2>
+    <div class="division">
+      <ul *ngIf = "users">
+        <li *ngFor = "let i of users" (click) = "selectMe(i)">
+          <p>{{ i.name }}</p>
+          <div *ngIf = "selected" class="detail">
+            <div *ngIf = "i.name === currentName">
+              <hr>
+              <p class="sub_head">Description:</p>
+              <p class="data">{{ currentDescription }}</p>
+              <hr>
+              <p class="sub_head">Technologies Used:</p>
+              <p class="data">{{ currentTech }}</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <button class="btn" (click) = "viewGithub()">View More...</button>
+    </div>
+  </body>
+</html>

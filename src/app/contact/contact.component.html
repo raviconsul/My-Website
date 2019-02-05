@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+  <h2>Contact Me</h2>
+  <form (ngSubmit) = "submitForm()">
+    <div>
+      <input type="text" name="name" placeholder="Your Name" [(ngModel)] = "name" size = "20">
+    </div>
+
+    <div>
+      <input type="email" name="email" placeholder="Your Email" [(ngModel)] = "email">
+    </div>
+
+    <div>
+      <textarea name="message" placeholder="What's on your mind?" [(ngModel)] = "message"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</html>

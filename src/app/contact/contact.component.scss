@@ -1,0 +1,38 @@
+input, textarea{
+    position: relative;
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 1em;
+    margin-left: 20px;
+}
+
+button{
+    margin-top: 20px;
+    background: darkblue;
+    color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 1em;
+    cursor: pointer;
+    font-family: cursive;
+    box-shadow: 2px 4px gray;
+}
+
+h2{
+    position: relative;
+    color: darkred;
+    font-family: cursive;
+    margin-left: 20px;
+}
+
+
+@keyframes image{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+input, textarea, button, h2{
+    animation-name: image;
+    animation-duration: 1s;
+}

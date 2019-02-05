@@ -1,0 +1,99 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    animation-name: image;
+    animation-duration: 1s;
+    align-self: center;
+    position: relative;
+    width: 60%;
+
+
+    li {
+        background: lightgreen;
+        padding: 0.5em;
+        border-radius: 4px;
+        margin-bottom: 7px;
+        font-family: cursive;
+
+        
+
+        p {
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        button{
+            background-color: aqua;
+            text-align: center;
+
+
+        }
+
+        #hiddenText{
+            display: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: green;
+            
+
+        }
+    }
+   
+    li:hover{
+        cursor: pointer;
+        background-color: lightcyan;
+        padding: 10px 20px;
+        color: purple;
+        font-style: italic;
+        
+    }
+
+}
+
+
+@keyframes image{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.head{
+    animation-name: image;
+    animation-duration: 1s;
+    position: relative;
+    left: 2%;
+    color: darkred;
+    font-family: cursive;
+}
+
+.btn{
+    text-align: center;
+    position: relative;
+    background: darkblue;
+    border-radius: 10px;
+    padding: 13px;
+    vertical-align: middle;  
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 4px gray;
+    left: 2%;
+    animation-name: image;
+    animation-duration: 1s;
+    margin: 10px;
+}
+
+.detail{
+    animation-name: image;
+    animation-duration: 1s;
+}
+
+.sub_head{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    font-size: 20px;
+}
+
+.data{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
